@@ -183,23 +183,8 @@
 								<li id="paypalPayment" class="active">
 									<img src="images/pay-pal.png">
 								</li>
-								<li id="visaPayment">
-									<img src="images/visa.png">
-								</li>
 							</ul>
 							<button id="paypalPaymentButton" class="text-uppercase">pay</button>
-							<form id="visaPaymentForm" name="visa-payment" class="col-xs-12 col-md-10 col-lg-8">
-								<label for="visaNumber" class="col-xs-12 col-sm-4 text-uppercase text-center">card number</label>
-								<input type="number" id="visaNumber" name="visa-number" form="visaPayment" class="col-xs-12 col-sm-8">
-								<label for="visaName" class="col-xs-12 col-sm-4 text-uppercase text-center">card name</label>
-								<input type="text" id="visaName" name="visa-name" form="visaPayment" class="col-xs-12 col-sm-8">
-								<label for="visaExpirationDate" class="col-xs-12 col-sm-4 text-uppercase text-center">expiration date</label>
-								<input type="number" min="1" max="12" id="visaExpirationDate" name="visa-expiration-date-month" form="visaPayment" class="col-xs-6 col-sm-3 text-uppercase" placeholder="month">
-								<input type="number" min="2015" max="2100" id="visaExpirationDate" name="visa-expiration-date-year" form="visaPayment" class="col-xs-6 col-sm-3 text-uppercase" placeholder="year">
-								<label for="visaCvc" class="col-xs-6 col-sm-2 col-sm-offset-4 text-uppercase text-center">cvc</label>
-								<input type="number" min="0" max="999" id="visaCvc" name="visa-cvc" form="visaPayment" class="col-xs-6 col-sm-2">
-								<input type="submit" form="visaPayment" value="pay" class="col-xs-12 col-sm-2 col-sm-push-2 col-md-push-4 col-lg-push-6 text-uppercase">
-							</form>
 						</div>
 					</div>
 				</div>
@@ -233,5 +218,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="./js/main_app.js"></script>
 <script src="./js/coins_app.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
